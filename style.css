@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* font  */
+.fc-dblue {
+  color: #0e103d;
+}
+.ff-eczar {
+  font-family: "Eczar", serif;
+}
+.ff-nanum {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+/* body section */
+body {
+  background-color: #d3bcc0;
+}
+/* navigation section */
+nav {
+  background: #003049;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+  z-index: 1;
+}
+nav .navibar {
+  display: flex;
+}
+.navibar div a {
+  text-decoration: none;
+  color: white;
+}
+.navibar div {
+  width: 200px;
+  padding: 30px;
+  text-align: center;
+}
+.signin {
+  margin-left: auto;
+}
+.navibar div:hover {
+  background-color: #124764;
+}
+.navibar div i {
+  color: white;
+  margin-right: 5px;
+  font-size: larger;
+}
+.navibar div a {
+  font-size: 20px;
+}
+/* home section */
+.homesection {
+  display: flex;
+  align-items: center;
+}
+.homesection .homeimg {
+  width: 50%;
+  text-align: center;
+}
+.homesection .homeimg img {
+  width: 100%;
+  height: 600px;
+}
+.homesection .hometext {
+  width: 50%;
+  padding: 20px;
+  text-align: justify;
+}
+.hometext p {
+  text-indent: 5%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.hometext h1 {
+  font-size: 25px;
+  text-align: center;
+}
+/* coffee section */
+.coffee h1 {
+  width: 90%;
+  padding: 20px;
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.menu1 .img1 img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.menu1 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu1 {
+  text-align: center;
+  color: #003049;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px #003049;
+  cursor: pointer;
+}
+.menu1:hover {
+  scale: 1.1;
+  transition: 0.6s;
+}
+.menu2 .img2 img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.menu2 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu2 {
+  text-align: center;
+  color: #003049;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px #003049;
+  cursor: pointer;
+}
+.menu2:hover {
+  scale: 1.1;
+  transition: 0.6s;
+}
+.menu3 .img3 {
+  border-radius: 10px;
+}
+.menu3 .img3 img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.menu3 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menu3 {
+  text-align: center;
+  color: #003049;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px #003049;
+  cursor: pointer;
+}
+.menu3:hover {
+  scale: 1.1;
+  transition: 0.6s;
+}
+/* snack section */
+.snack h1 {
+  width: 90%;
+  padding: 20px;
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+.menua .imga img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.menua p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menua {
+  text-align: center;
+  color: #003049;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px #003049;
+  cursor: pointer;
+}
+.menua:hover {
+  scale: 1.1;
+  transition: 0.6s;
+}
+.menub .imgb img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.menub p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menub {
+  text-align: center;
+  color: #003049;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px #003049;
+  cursor: pointer;
+}
+.menub:hover {
+  scale: 1.1;
+  transition: 0.6s;
+}
+.menuc .imgc {
+  border-radius: 10px;
+}
+.menuc .imgc img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.menuc p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.menuc {
+  text-align: center;
+  color: #003049;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: 5px 5px 5px 5px #003049;
+  cursor: pointer;
+}
+.menuc:hover {
+  scale: 1.1;
+  transition: 0.6s;
+}
+/* about us section */
+.about h1{
+  width: 90%;
+  padding: 20px;
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.abouttext {
+  width: 50%;
+  margin: 15px;
+}
+.aboutimg {
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+.aboutbody {
+  display: flex;
+  align-items: center;
+}
+.abouttext p{
+  
+  text-align: justify;
+  line-height: 1.5;
+}
+/* contact section */
+.contact h1{
+  width: 90%;
+  padding: 20px;
+  background-color: #003049;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+}
+.contacttext{
+  width: 50%;
+  margin: 10px;
+  padding: 20px;
+}
+.contacttext p{
+  margin-bottom: 10px;
+}
+.contacttext p a{
+  text-decoration: none;
+}
+textarea{
+  resize: none;
+  display: block;
+  margin-bottom: 10px;
+}
+.contactbody{
+  display: flex;
+  align-items: center;
+}
+.comment{
+  margin: 10px;
+  padding: 20px;
+}
+.comment button{
+  padding: 10px;
+  background-color: #003049;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* footer section */
+footer{
+  background-color: #003049;
+}
+footer p{
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
